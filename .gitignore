@@ -1,0 +1,8 @@
+.vscode/
+.env
+.cache
+*.swp
+
+dist
+node_modules
+local

@@ -1,0 +1,15 @@
+{
+  "presets": [
+    "env",
+    "react"
+  ],
+  "plugins": [
+    ["module-resolver", {
+      "alias": {
+        "@": "./src"
+      }
+    }],
+    "transform-class-properties",
+    "transform-object-rest-spread"
+  ]
+}
